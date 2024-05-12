@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Style for the RatingBar -->
+    <style name="CustomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressTint">@color/gold</item> <!-- Color for filled stars -->
+        <item name="android:minHeight">48dp</item>
+        <item name="android:maxHeight">48dp</item>
+    </style>
+
+    <style name="MediumHeadings">
+        <item name="android:textColor">@color/Headings</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="catagoryHeadingsss">
+        <item name="android:textColor">@color/catagoryheadings</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:background">@color/lightBlack</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="styletextofoptions">
+        <item name="android:textColor">@color/colortextofoptions</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="styletextofbtn">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="RecyclerViewTextsettings">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+
+    <style name="HomescreeniconsText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+
+    <style name="texthomeicon">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

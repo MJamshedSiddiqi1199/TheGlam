@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_edittext"
+    android:padding="16dp">
+
+    <!-- Vertical LinearLayout for Text Views -->
+    <LinearLayout
+        android:id="@+id/llTextContainer"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:layout_margin="1dp"
+            android:textSize="25sp"
+            style="@style/RecyclerViewTextsettings"/>
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:text="Product Info"
+            style="@style/RecyclerViewTextsettings" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            style="@style/RecyclerViewTextsettings" />
+    </LinearLayout>
+
+    <!-- Add Icon -->
+    <ImageView
+        android:id="@+id/imgAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:padding="8dp" />
+
+</RelativeLayout>

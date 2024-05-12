@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/main_purple"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Add the TextView here -->
+
+    <!-- Your existing EditTexts and Button -->
+
+    <TextView
+        android:id="@+id/tvServicesTitle"
+        style="@style/MediumHeadings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etUpdateName"
+        android:layout_gravity="center"
+        android:layout_marginTop="-80dp"
+        android:layout_marginBottom="150dp"
+        android:background="@color/main_purple"
+        android:gravity="center"
+        android:text="Update Your Profile" />
+
+    <EditText
+        android:id="@+id/etUpdateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="@color/colortexthint"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:id="@+id/etUpdateEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/colortexthint"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/etUpdateName"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etUpdatePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:textColorHint="@color/colortexthint"
+        android:inputType="textPassword"
+        android:layout_below="@id/etUpdateEmail"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        style="@style/styletextofbtn"
+        android:layout_below="@id/etUpdatePassword"
+        android:layout_marginTop="44dp"/>
+
+</RelativeLayout>

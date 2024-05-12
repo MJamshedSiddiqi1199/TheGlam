@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_options_for_admin_user_login_signup_id"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Image at the top -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/logo_login_signup"
+            android:src="@drawable/ic_glam_logo"
+            android:layout_centerHorizontal="true"/>
+
+        <!-- Title at the top -->
+
+        <!-- Client Login Button -->
+        <Button
+            android:id="@+id/btnClientLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo_login_signup"
+            android:layout_marginTop="70dp"
+            android:text="Client Login"
+            style="@style/styletextofbtn"
+            android:background="@drawable/rounded_button"/>
+
+        <!-- Client Signup Button -->
+        <Button
+            android:id="@+id/btnClientSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnClientLogin"
+            android:layout_marginTop="16dp"
+
+            style="@style/styletextofbtn"
+            android:text="Client Signup"
+            android:background="@drawable/rounded_button"/>
+
+        <!-- Admin Login Button -->
+        <Button
+            android:id="@+id/btnAdminLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnClientSignup"
+
+            style="@style/styletextofbtn"
+            android:layout_marginTop="16dp"
+            android:text="Admin Login"
+            android:background="@drawable/rounded_button"/>
+
+        <!-- Admin Signup Button -->
+        <Button
+            android:id="@+id/btnAdminSignup"
+
+            style="@style/styletextofbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnAdminLogin"
+            android:layout_marginTop="16dp"
+            android:text="Admin Signup"
+            android:background="@drawable/rounded_button"/>
+    </RelativeLayout>
+</ScrollView>
